@@ -4,11 +4,14 @@ import { AuthController } from './auth.controller';
 import { ConfigModule } from '@nestjs/config';
 import * as Joi from 'joi';
 import { GoogleStrategy } from './google.strategy';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { UserEntity } from '../typeorm/entities';
 
 @Module({
   providers: [AuthService, GoogleStrategy],
   controllers: [AuthController],
   imports: [
+    TypeOrmModule.forFeature([UserEntity]),
     ConfigModule.forRoot({
       validationSchema: Joi.object({
         GOOGLE_CLIENT_ID: Joi.string().required(),
