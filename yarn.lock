@@ -1323,7 +1323,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/cli@npm:^11.0.0":
+"@nestjs/cli@npm:^11.0.2":
   version: 11.0.2
   resolution: "@nestjs/cli@npm:11.0.2"
   dependencies:
@@ -1360,7 +1360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^11.0.1":
+"@nestjs/common@npm:^11.0.6":
   version: 11.0.6
   resolution: "@nestjs/common@npm:11.0.6"
   dependencies:
@@ -1381,7 +1381,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:^11.0.1":
+"@nestjs/core@npm:^11.0.6":
   version: 11.0.6
   resolution: "@nestjs/core@npm:11.0.6"
   dependencies:
@@ -1409,7 +1409,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-express@npm:^11.0.1":
+"@nestjs/platform-express@npm:^11.0.6":
   version: 11.0.6
   resolution: "@nestjs/platform-express@npm:11.0.6"
   dependencies:
@@ -1440,7 +1440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/testing@npm:^11.0.1":
+"@nestjs/testing@npm:^11.0.6":
   version: 11.0.6
   resolution: "@nestjs/testing@npm:11.0.6"
   dependencies:
@@ -6155,12 +6155,12 @@ __metadata:
   dependencies:
     "@eslint/eslintrc": "npm:^3.2.0"
     "@eslint/js": "npm:^9.18.0"
-    "@nestjs/cli": "npm:^11.0.0"
-    "@nestjs/common": "npm:^11.0.1"
-    "@nestjs/core": "npm:^11.0.1"
-    "@nestjs/platform-express": "npm:^11.0.1"
+    "@nestjs/cli": "npm:^11.0.2"
+    "@nestjs/common": "npm:^11.0.6"
+    "@nestjs/core": "npm:^11.0.6"
+    "@nestjs/platform-express": "npm:^11.0.6"
     "@nestjs/schematics": "npm:^11.0.0"
-    "@nestjs/testing": "npm:^11.0.1"
+    "@nestjs/testing": "npm:^11.0.6"
     "@swc/cli": "npm:^0.6.0"
     "@swc/core": "npm:^1.10.7"
     "@types/express": "npm:^5.0.0"
