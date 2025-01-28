@@ -17,4 +17,8 @@ export class AuthService {
     console.log(user);
     return user;
   }
+
+  public async findUser(id: number) {
+    return await this.userRepository.findOneBy({ id });
+  }
 }

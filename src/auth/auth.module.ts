@@ -6,9 +6,10 @@ import * as Joi from 'joi';
 import { GoogleStrategy } from './google.strategy';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserEntity } from '../typeorm/entities';
+import { SessionSerializer } from './serializer';
 
 @Module({
-  providers: [AuthService, GoogleStrategy],
+  providers: [AuthService, GoogleStrategy, SessionSerializer],
   controllers: [AuthController],
   imports: [
     TypeOrmModule.forFeature([UserEntity]),

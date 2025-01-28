@@ -4,10 +4,12 @@ import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserEntity } from './typeorm/entities';
+import { PassportModule } from '@nestjs/passport';
 
 @Module({
   imports: [
     AuthModule,
+    PassportModule.register({ session: true }),
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
